@@ -17,4 +17,14 @@ public class StudentService implements UserService<Student> {
         Student student = new Student(name, age, score);
         students.add(student);
     }
+
+    @Override
+    public void create(String name, int experience, int age, String subject) {
+
+    }
+
+    @Override
+    public void modify(String name, String newName, int experience, int age, String subject) {
+
+    }
 }
